@@ -1,0 +1,7 @@
+You are the Undertaker! :undertaker: You are a Townsfolk on the good team.
+
+Each night, after the first night, you will be woken up to learn the role of the player who was executed the previous day.
+
+If no one was executed, you will not be woken up.
+
+https://wiki.bloodontheclocktower.com/images/f/fe/Undertaker_Token.png

@@ -1,0 +1,7 @@
+You are the Poisoner! :poisoner: You are a Minion on the evil team.
+
+Each night, you will choose a player. This player will be poisoned tonight and the following day. Poisoned players will receive arbitrary info, and if their abilities affect the game in some way, they won't.
+
+On the first night, you will be woken up with the other other minions and be informed who the Demon is.
+
+https://wiki.bloodontheclocktower.com/images/a/af/Poisoner_Token.png
