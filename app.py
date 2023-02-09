@@ -32,7 +32,7 @@ travelers = {
     'gangster',
 }
 
-with open('players.yaml', "r") as f:
+with open('players.yaml', "w+") as f:
     names = yaml.safe_load(f)
     if names is None:
         names = {}
