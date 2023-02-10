@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 from typing import *
 from env import *
 
@@ -32,11 +33,15 @@ travelers = {
     'gangster',
 }
 
-with open('players.yaml', "w+") as f:
+filename = Path('players.yaml')
+filename.touch(exist_ok=True)
+file = open(filename)
+
+with open(filename, "r") as f:
     names = yaml.safe_load(f)
     if names is None:
         names = {}
-    print('players.yaml loaded successfully')
+    print(f'Loaded {len(names)} names successfully')
 
 with open('abbrevs.yaml', "r") as f:
     abbrevs = yaml.safe_load(f)
