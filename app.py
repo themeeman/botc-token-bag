@@ -35,7 +35,6 @@ travelers = {
 
 filename = Path('players.yaml')
 filename.touch(exist_ok=True)
-file = open(filename)
 
 with open(filename, "r") as f:
     names = yaml.safe_load(f)
