@@ -36,13 +36,13 @@ travelers = {
 filename = Path('players.yaml')
 filename.touch(exist_ok=True)
 
-with open(filename, "r") as f:
+with open(filename, 'r') as f:
     names = yaml.safe_load(f)
     if names is None:
         names = {}
     print(f'Loaded {len(names)} names successfully')
 
-with open('abbrevs.yaml', "r") as f:
+with open('abbrevs.yaml', 'r') as f:
     abbrevs = yaml.safe_load(f)
     if abbrevs is None:
         abbrevs = {}
@@ -65,17 +65,17 @@ async def addname(
     name: str
     user: discord.User
     names[name.lower()] = user.id
-    with open('players.yaml', "w") as f:
+    with open('players.yaml', 'w') as f:
         yaml.safe_dump(names, f)
-    await ctx.respond("Player added successfully")
+    await ctx.respond('Player added successfully')
 
 
 @bot.slash_command(guild_ids=[GUILD])
 async def getabbrevs(ctx: discord.ApplicationContext):
     with open('abbrevs.yaml') as f:
-        await ctx.respond(f"""```yaml
+        await ctx.respond(f'''```yaml
 {f.read()}
-```""")
+```''')
 
 
 @bot.slash_command(guild_ids=[GUILD])
@@ -84,16 +84,16 @@ async def getnames(ctx: discord.ApplicationContext):
     s = []
     for name, i in names.items():
         user = await bot.get_or_fetch_user(i)
-        s.append(f"{name}: {i} ({user.name}#{user.discriminator})")
+        s.append(f'{name}: {i} ({user.name}#{user.discriminator})')
     s = '\n'.join(s)
-    await ctx.respond(f"""```yaml
+    await ctx.respond(f'''```yaml
 {s}
-```""")
+```''')
 
 
 async def send(ctx: discord.ApplicationContext, players: List[str], roles: List[str]):
     if len(players) != len(roles):
-        await ctx.respond("Number of players / roles mismatch")
+        await ctx.respond('Number of players / roles mismatch')
         return
 
     playerss = []
@@ -121,9 +121,9 @@ async def send(ctx: discord.ApplicationContext, players: List[str], roles: List[
         try:
             await dm.send(text)
         except discord.errors.DiscordException as ex:
-            print(f"Failed to send message to {user.name}#{user.discriminator}: {ex}\n")
+            print(f'Failed to send message to {user.name}#{user.discriminator}: {ex}\n')
 
-    await ctx.respond("Role DM's Sent.")
+    await ctx.respond('Role DM\'s Sent.')
 
 
 @bot.slash_command(guild_ids=[GUILD])
@@ -150,5 +150,5 @@ async def sendgrim(ctx: discord.ApplicationContext, grim: discord.Option(str)):
     await send(ctx, players, roles)
 
 
-print("Bot is running")
+print('Bot is running')
 bot.run(TOKEN)
