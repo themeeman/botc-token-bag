@@ -1,7 +1,1 @@
-You are the Fortune Teller! :fortuneteller: You are a Townsfolk on the good team.
-
-Each night, you will choose two players. You will learn whether one of the players you picked is the Demon. One good player will falsely show up as the demon to you.
-
-You will be woken up every night to point to two players and then receive your info.
-
-https://wiki.bloodontheclocktower.com/images/3/3a/Fortune_Teller_Token.png
+https://clocktower.patters.live/token/fortuneteller.png

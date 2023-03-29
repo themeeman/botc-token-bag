@@ -1,5 +1,1 @@
-You are the Butler! :butler: You are an Outsider on the good team.
-
-Each night, choose a player (not yourself). The following day, you may only vote if this player is voting too.
-
-https://wiki.bloodontheclocktower.com/images/1/1a/Butler_Token.png
+https://clocktower.patters.live/token/butler.png

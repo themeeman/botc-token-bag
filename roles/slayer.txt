@@ -1,7 +1,1 @@
-You are the Slayer! :slayer: You are a Townsfolk on the good team.
-
-Once per game, during the day, choose a player. If they are the Demon, they die.
-
-Basically its a one shot day vig that can only kill the Demon.
-
-https://wiki.bloodontheclocktower.com/images/2/2f/Slayer_Token.png
+https://clocktower.patters.live/token/slayer.png

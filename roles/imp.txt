@@ -1,9 +1,1 @@
-You are the Imp! <:imp:586693972190167040> You are the Demon in this game and on the evil team.
-
-Each night after the first, you choose a player and they die. If you choose yourself, you die and one of your minions becomes the new Imp.
-
-If you die and there's no other Demon to replace you, the good team wins.
-
-You will be woken on the first night and informed of your minions, and three not in play good characters (called "bluffs"). Then on each following night, you will point to a player to die.
-
-https://wiki.bloodontheclocktower.com/images/4/42/Imp_Token.png
+https://clocktower.patters.live/token/imp.png

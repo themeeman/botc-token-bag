@@ -1,7 +1,1 @@
-You are the Baron! :baron: You are a Minion on the evil team.
-
-Two extra outsiders are added into the game when the roles are being assigned. Other than that, you don't do anything.
-
-On the first night, you will be woken up with the other other minions and be informed who the Demon is.
-
-https://wiki.bloodontheclocktower.com/images/b/ba/Baron_Token.png
+https://clocktower.patters.live/token/baron.png

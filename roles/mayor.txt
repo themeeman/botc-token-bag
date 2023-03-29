@@ -1,5 +1,1 @@
-You are the Mayor! :mayor: You are a Townsfolk on the good team.
-
-If there are 3 players alive and no one is executed, the good team wins immediately. If you die at night, another player might die instead.
-
-https://wiki.bloodontheclocktower.com/images/c/c4/Mayor_Token.png
+https://clocktower.patters.live/token/mayor.png

@@ -1,7 +1,1 @@
-You are the Librarian! :librarian: You are a Townsfolk on the good team.
-
-You start knowing two players, one of which is a particular Outsider character. Or, if no outsiders are in play, you learn a 0.
-
-You will be woken up only on the first night to receive your info.
-
-https://wiki.bloodontheclocktower.com/images/8/86/Librarian_Token.png
+https://clocktower.patters.live/token/librarian.png

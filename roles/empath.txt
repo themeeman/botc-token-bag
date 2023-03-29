@@ -1,7 +1,1 @@
-You are the Empath! :empath: You are a Townsfolk on the good team.
-
-Each night, you will learn how many of your alive neighbours are evil. This will skip over dead players.
-
-You will be woken up every night to receive your info.
-
-https://wiki.bloodontheclocktower.com/images/6/61/Empath_Token.png
+https://clocktower.patters.live/token/empath.png
